@@ -464,7 +464,7 @@ SNDDECLSPEC Sound_Sample * SDLCALL Sound_NewSample(SDL_RWops *rw,
  * Sound_NewSample()'s "ext" parameter is gleaned from the contents of
  *  (filename).
  *
- *    \param filename file containing sound data.
+ *    \param fname file containing sound data.
  *    \param desired Format to convert sound data into. Can usually be NULL,
  *                   if you don't need conversion.
  *    \param bufferSize size, in bytes, of initial read buffer.
