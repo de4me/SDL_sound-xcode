@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD275B44273BD7A6001B0402 /* SDL_sound.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0AAE273BD1B6001162FE /* SDL_sound.c */; };
+		BD275B45273BD7C8001B0402 /* au.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0AB7273BD280001162FE /* au.c */; };
+		BD275B46273BD7C8001B0402 /* mikmod.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0ABB273BD280001162FE /* mikmod.c */; };
+		BD275B48273BD7C8001B0402 /* raw.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0AB9273BD280001162FE /* raw.c */; };
+		BD275B49273BD7C8001B0402 /* au.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0AB7273BD280001162FE /* au.c */; };
+		BD275B4A273BD7C8001B0402 /* mikmod.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0ABB273BD280001162FE /* mikmod.c */; };
+		BD275B4C273BD7C8001B0402 /* raw.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0AB9273BD280001162FE /* raw.c */; };
+		BD275B4D273BD7CF001B0402 /* timidity.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0AE0273BD280001162FE /* timidity.c */; };
+		BD275B4E273BD7CF001B0402 /* common.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0ABE273BD280001162FE /* common.c */; };
+		BD275B4F273BD7CF001B0402 /* mix.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0AD1273BD280001162FE /* mix.c */; };
+		BD275B50273BD7CF001B0402 /* readmidi.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0AC1273BD280001162FE /* readmidi.c */; };
+		BD275B51273BD7CF001B0402 /* instrum.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0AC6273BD280001162FE /* instrum.c */; };
+		BD275B52273BD7CF001B0402 /* tables.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0ABF273BD280001162FE /* tables.c */; };
+		BD275B53273BD7CF001B0402 /* playmidi.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0AD2273BD280001162FE /* playmidi.c */; };
+		BD275B54273BD7CF001B0402 /* output.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0ADF273BD280001162FE /* output.c */; };
+		BD275B55273BD7CF001B0402 /* testmidi.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0AE2273BD280001162FE /* testmidi.c */; };
+		BD275B56273BD7CF001B0402 /* resample.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0ACE273BD280001162FE /* resample.c */; };
+		BD275B57273BD7D0001B0402 /* timidity.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0AE0273BD280001162FE /* timidity.c */; };
+		BD275B58273BD7D0001B0402 /* common.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0ABE273BD280001162FE /* common.c */; };
+		BD275B59273BD7D0001B0402 /* mix.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0AD1273BD280001162FE /* mix.c */; };
+		BD275B5A273BD7D0001B0402 /* readmidi.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0AC1273BD280001162FE /* readmidi.c */; };
+		BD275B5B273BD7D0001B0402 /* instrum.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0AC6273BD280001162FE /* instrum.c */; };
+		BD275B5C273BD7D0001B0402 /* tables.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0ABF273BD280001162FE /* tables.c */; };
+		BD275B5D273BD7D0001B0402 /* playmidi.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0AD2273BD280001162FE /* playmidi.c */; };
+		BD275B5E273BD7D0001B0402 /* output.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0ADF273BD280001162FE /* output.c */; };
+		BD275B5F273BD7D0001B0402 /* testmidi.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0AE2273BD280001162FE /* testmidi.c */; };
+		BD275B60273BD7D0001B0402 /* resample.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0ACE273BD280001162FE /* resample.c */; };
+		BD275B61273BD7D5001B0402 /* aiff.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0AE9273BD280001162FE /* aiff.c */; };
+		BD275B62273BD7D5001B0402 /* shn.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0AE4273BD280001162FE /* shn.c */; };
+		BD275B63273BD7D5001B0402 /* quicktime.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0AE5273BD280001162FE /* quicktime.c */; };
+		BD275B64273BD7D5001B0402 /* speex.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0AEC273BD280001162FE /* speex.c */; };
+		BD275B65273BD7D5001B0402 /* wav.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0AED273BD280001162FE /* wav.c */; };
+		BD275B66273BD7D5001B0402 /* mpg123.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0AEA273BD280001162FE /* mpg123.c */; };
+		BD275B67273BD7D5001B0402 /* voc.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0AFE273BD280001162FE /* voc.c */; };
+		BD275B68273BD7D5001B0402 /* midi.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0AEB273BD280001162FE /* midi.c */; };
+		BD275B69273BD7D5001B0402 /* flac.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0AEE273BD280001162FE /* flac.c */; };
+		BD275B6A273BD7D5001B0402 /* ogg.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0AE6273BD280001162FE /* ogg.c */; };
+		BD275B6B273BD7D5001B0402 /* modplug.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0AE8273BD280001162FE /* modplug.c */; };
+		BD275B6C273BD7D6001B0402 /* aiff.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0AE9273BD280001162FE /* aiff.c */; };
+		BD275B6D273BD7D6001B0402 /* shn.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0AE4273BD280001162FE /* shn.c */; };
+		BD275B6E273BD7D6001B0402 /* quicktime.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0AE5273BD280001162FE /* quicktime.c */; };
+		BD275B6F273BD7D6001B0402 /* speex.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0AEC273BD280001162FE /* speex.c */; };
+		BD275B70273BD7D6001B0402 /* wav.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0AED273BD280001162FE /* wav.c */; };
+		BD275B71273BD7D6001B0402 /* mpg123.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0AEA273BD280001162FE /* mpg123.c */; };
+		BD275B72273BD7D6001B0402 /* voc.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0AFE273BD280001162FE /* voc.c */; };
+		BD275B73273BD7D6001B0402 /* midi.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0AEB273BD280001162FE /* midi.c */; };
+		BD275B74273BD7D6001B0402 /* flac.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0AEE273BD280001162FE /* flac.c */; };
+		BD275B75273BD7D6001B0402 /* ogg.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0AE6273BD280001162FE /* ogg.c */; };
+		BD275B76273BD7D6001B0402 /* modplug.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0AE8273BD280001162FE /* modplug.c */; };
+		BD275B7D273BD9D0001B0402 /* alt_audio_convert.c in Sources */ = {isa = PBXBuildFile; fileRef = BD275B7A273BD9CC001B0402 /* alt_audio_convert.c */; };
+		BD275B7E273BD9D0001B0402 /* alt_audio_convert.c in Sources */ = {isa = PBXBuildFile; fileRef = BD275B7A273BD9CC001B0402 /* alt_audio_convert.c */; };
+		BD275B7F273BD9D5001B0402 /* audio_convert.c in Sources */ = {isa = PBXBuildFile; fileRef = BD275B7C273BD9CC001B0402 /* audio_convert.c */; };
+		BD275B80273BD9D6001B0402 /* audio_convert.c in Sources */ = {isa = PBXBuildFile; fileRef = BD275B7C273BD9CC001B0402 /* audio_convert.c */; };
+		BD275B81273BDBF7001B0402 /* SDL_sound.h in Headers */ = {isa = PBXBuildFile; fileRef = BDDB0AB0273BD1B6001162FE /* SDL_sound.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD31E673273C10B000FBDDBC /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD31E672273C10B000FBDDBC /* SDL.framework */; };
+		BDDB0AB1273BD1B6001162FE /* SDL_sound.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0AAE273BD1B6001162FE /* SDL_sound.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD271A8E273BE2A700B2D0FF /* libSDLmain.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSDLmain.a; sourceTree = "<group>"; };
+		BD271A90273BE2FB00B2D0FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BD271A92273BE32B00B2D0FF /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		BD271A94273BE3F400B2D0FF /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		BD271A96273BE43900B2D0FF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		BD271A98273BE4E100B2D0FF /* libSDL.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSDL.a; sourceTree = "<group>"; };
+		BD271A9A273BE51200B2D0FF /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		BD271A9C273BE52700B2D0FF /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		BD271A9F273BE57400B2D0FF /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		BD271AA1273BE5AC00B2D0FF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BD271AA3273BE5E500B2D0FF /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		BD275B78273BD913001B0402 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL.framework; sourceTree = "<group>"; };
+		BD275B7A273BD9CC001B0402 /* alt_audio_convert.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = alt_audio_convert.c; path = ../../../alt_audio_convert.c; sourceTree = "<group>"; };
+		BD275B7B273BD9CC001B0402 /* alt_audio_convert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = alt_audio_convert.h; path = ../../../alt_audio_convert.h; sourceTree = "<group>"; };
+		BD275B7C273BD9CC001B0402 /* audio_convert.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = audio_convert.c; path = ../../../audio_convert.c; sourceTree = "<group>"; };
+		BD31E66E273C10A500FBDDBC /* SDL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD31E672273C10B000FBDDBC /* SDL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD8B7B13273C18DE005425F2 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		BDDA6D08273BF7730034371A /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = ../SDL/SDL.framework; sourceTree = "<group>"; };
+		BDDB0AA2273BD188001162FE /* libSDL_Sound.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSDL_Sound.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDDB0AAE273BD1B6001162FE /* SDL_sound.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = SDL_sound.c; path = ../../../SDL_sound.c; sourceTree = "<group>"; };
+		BDDB0AAF273BD1B6001162FE /* SDL_sound_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDL_sound_internal.h; path = ../../../SDL_sound_internal.h; sourceTree = "<group>"; };
+		BDDB0AB0273BD1B6001162FE /* SDL_sound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDL_sound.h; path = ../../../SDL_sound.h; sourceTree = "<group>"; };
+		BDDB0AB4273BD1C7001162FE /* filter_templates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = filter_templates.h; path = ../../../filter_templates.h; sourceTree = "<group>"; };
+		BDDB0AB7273BD280001162FE /* au.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = au.c; sourceTree = "<group>"; };
+		BDDB0AB8273BD280001162FE /* skeleton.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = skeleton.c; sourceTree = "<group>"; };
+		BDDB0AB9273BD280001162FE /* raw.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = raw.c; sourceTree = "<group>"; };
+		BDDB0ABB273BD280001162FE /* mikmod.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mikmod.c; sourceTree = "<group>"; };
+		BDDB0ABD273BD280001162FE /* resample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = resample.h; sourceTree = "<group>"; };
+		BDDB0ABE273BD280001162FE /* common.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = common.c; sourceTree = "<group>"; };
+		BDDB0ABF273BD280001162FE /* tables.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tables.c; sourceTree = "<group>"; };
+		BDDB0AC0273BD280001162FE /* mix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mix.h; sourceTree = "<group>"; };
+		BDDB0AC1273BD280001162FE /* readmidi.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = readmidi.c; sourceTree = "<group>"; };
+		BDDB0AC5273BD280001162FE /* playmidi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = playmidi.h; sourceTree = "<group>"; };
+		BDDB0AC6273BD280001162FE /* instrum.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = instrum.c; sourceTree = "<group>"; };
+		BDDB0AC7273BD280001162FE /* options.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = options.h; sourceTree = "<group>"; };
+		BDDB0AC8273BD280001162FE /* timidity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = timidity.h; sourceTree = "<group>"; };
+		BDDB0AC9273BD280001162FE /* output.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = output.h; sourceTree = "<group>"; };
+		BDDB0ACD273BD280001162FE /* tables.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tables.h; sourceTree = "<group>"; };
+		BDDB0ACE273BD280001162FE /* resample.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = resample.c; sourceTree = "<group>"; };
+		BDDB0AD0273BD280001162FE /* common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		BDDB0AD1273BD280001162FE /* mix.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mix.c; sourceTree = "<group>"; };
+		BDDB0AD2273BD280001162FE /* playmidi.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = playmidi.c; sourceTree = "<group>"; };
+		BDDB0AD3273BD280001162FE /* readmidi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = readmidi.h; sourceTree = "<group>"; };
+		BDDB0ADF273BD280001162FE /* output.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = output.c; sourceTree = "<group>"; };
+		BDDB0AE0273BD280001162FE /* timidity.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = timidity.c; sourceTree = "<group>"; };
+		BDDB0AE2273BD280001162FE /* testmidi.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = testmidi.c; sourceTree = "<group>"; };
+		BDDB0AE3273BD280001162FE /* instrum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = instrum.h; sourceTree = "<group>"; };
+		BDDB0AE4273BD280001162FE /* shn.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = shn.c; sourceTree = "<group>"; };
+		BDDB0AE5273BD280001162FE /* quicktime.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = quicktime.c; sourceTree = "<group>"; };
+		BDDB0AE6273BD280001162FE /* ogg.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ogg.c; sourceTree = "<group>"; };
+		BDDB0AE8273BD280001162FE /* modplug.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = modplug.c; sourceTree = "<group>"; };
+		BDDB0AE9273BD280001162FE /* aiff.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = aiff.c; sourceTree = "<group>"; };
+		BDDB0AEA273BD280001162FE /* mpg123.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mpg123.c; sourceTree = "<group>"; };
+		BDDB0AEB273BD280001162FE /* midi.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = midi.c; sourceTree = "<group>"; };
+		BDDB0AEC273BD280001162FE /* speex.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = speex.c; sourceTree = "<group>"; };
+		BDDB0AED273BD280001162FE /* wav.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wav.c; sourceTree = "<group>"; };
+		BDDB0AEE273BD280001162FE /* flac.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = flac.c; sourceTree = "<group>"; };
+		BDDB0AFE273BD280001162FE /* voc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = voc.c; sourceTree = "<group>"; };
+		BDDB0B08273BD473001162FE /* SDL_Sound.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDL_Sound.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDDB0AA0273BD188001162FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDDB0B05273BD473001162FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD31E673273C10B000FBDDBC /* SDL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD275B77273BD913001B0402 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD31E672273C10B000FBDDBC /* SDL.framework */,
+				BD31E66E273C10A500FBDDBC /* SDL.framework */,
+				BDDA6D08273BF7730034371A /* SDL.framework */,
+				BD271AA3273BE5E500B2D0FF /* Carbon.framework */,
+				BD271AA1273BE5AC00B2D0FF /* AudioToolbox.framework */,
+				BD271A9F273BE57400B2D0FF /* OpenGL.framework */,
+				BD271A9C273BE52700B2D0FF /* AudioUnit.framework */,
+				BD271A9A273BE51200B2D0FF /* IOKit.framework */,
+				BD271A98273BE4E100B2D0FF /* libSDL.a */,
+				BD271A96273BE43900B2D0FF /* AppKit.framework */,
+				BD271A94273BE3F400B2D0FF /* CoreServices.framework */,
+				BD271A92273BE32B00B2D0FF /* CoreFoundation.framework */,
+				BD271A90273BE2FB00B2D0FF /* Foundation.framework */,
+				BD271A8E273BE2A700B2D0FF /* libSDLmain.a */,
+				BD275B78273BD913001B0402 /* SDL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDDB0A99273BD188001162FE = {
+			isa = PBXGroup;
+			children = (
+				BDDB0AA4273BD188001162FE /* SDL_Sound */,
+				BDDB0AA3273BD188001162FE /* Products */,
+				BD275B77273BD913001B0402 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BDDB0AA3273BD188001162FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDDB0AA2273BD188001162FE /* libSDL_Sound.a */,
+				BDDB0B08273BD473001162FE /* SDL_Sound.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDDB0AA4273BD188001162FE /* SDL_Sound */ = {
+			isa = PBXGroup;
+			children = (
+				BD8B7B13273C18DE005425F2 /* config.h */,
+				BDDB0AB4273BD1C7001162FE /* filter_templates.h */,
+				BD275B7A273BD9CC001B0402 /* alt_audio_convert.c */,
+				BD275B7B273BD9CC001B0402 /* alt_audio_convert.h */,
+				BD275B7C273BD9CC001B0402 /* audio_convert.c */,
+				BDDB0AAF273BD1B6001162FE /* SDL_sound_internal.h */,
+				BDDB0AAE273BD1B6001162FE /* SDL_sound.c */,
+				BDDB0AB0273BD1B6001162FE /* SDL_sound.h */,
+				BDDB0AB6273BD280001162FE /* decoders */,
+			);
+			path = SDL_Sound;
+			sourceTree = "<group>";
+		};
+		BDDB0AB6273BD280001162FE /* decoders */ = {
+			isa = PBXGroup;
+			children = (
+				BDDB0AB7273BD280001162FE /* au.c */,
+				BDDB0AB8273BD280001162FE /* skeleton.c */,
+				BDDB0AB9273BD280001162FE /* raw.c */,
+				BDDB0ABB273BD280001162FE /* mikmod.c */,
+				BDDB0ABC273BD280001162FE /* timidity */,
+				BDDB0AE4273BD280001162FE /* shn.c */,
+				BDDB0AE5273BD280001162FE /* quicktime.c */,
+				BDDB0AE6273BD280001162FE /* ogg.c */,
+				BDDB0AE8273BD280001162FE /* modplug.c */,
+				BDDB0AE9273BD280001162FE /* aiff.c */,
+				BDDB0AEA273BD280001162FE /* mpg123.c */,
+				BDDB0AEB273BD280001162FE /* midi.c */,
+				BDDB0AEC273BD280001162FE /* speex.c */,
+				BDDB0AED273BD280001162FE /* wav.c */,
+				BDDB0AEE273BD280001162FE /* flac.c */,
+				BDDB0AFE273BD280001162FE /* voc.c */,
+			);
+			name = decoders;
+			path = ../../../decoders;
+			sourceTree = "<group>";
+		};
+		BDDB0ABC273BD280001162FE /* timidity */ = {
+			isa = PBXGroup;
+			children = (
+				BDDB0ABD273BD280001162FE /* resample.h */,
+				BDDB0ABE273BD280001162FE /* common.c */,
+				BDDB0ABF273BD280001162FE /* tables.c */,
+				BDDB0AC0273BD280001162FE /* mix.h */,
+				BDDB0AC1273BD280001162FE /* readmidi.c */,
+				BDDB0AC5273BD280001162FE /* playmidi.h */,
+				BDDB0AC6273BD280001162FE /* instrum.c */,
+				BDDB0AC7273BD280001162FE /* options.h */,
+				BDDB0AC8273BD280001162FE /* timidity.h */,
+				BDDB0AC9273BD280001162FE /* output.h */,
+				BDDB0ACD273BD280001162FE /* tables.h */,
+				BDDB0ACE273BD280001162FE /* resample.c */,
+				BDDB0AD0273BD280001162FE /* common.h */,
+				BDDB0AD1273BD280001162FE /* mix.c */,
+				BDDB0AD2273BD280001162FE /* playmidi.c */,
+				BDDB0AD3273BD280001162FE /* readmidi.h */,
+				BDDB0ADF273BD280001162FE /* output.c */,
+				BDDB0AE0273BD280001162FE /* timidity.c */,
+				BDDB0AE2273BD280001162FE /* testmidi.c */,
+				BDDB0AE3273BD280001162FE /* instrum.h */,
+			);
+			path = timidity;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BDDB0A9E273BD188001162FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDDB0B03273BD473001162FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD275B81273BDBF7001B0402 /* SDL_sound.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BDDB0AA1273BD188001162FE /* libSDL_Sound */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDDB0AAB273BD188001162FE /* Build configuration list for PBXNativeTarget "libSDL_Sound" */;
+			buildPhases = (
+				BDDB0A9E273BD188001162FE /* Headers */,
+				BDDB0A9F273BD188001162FE /* Sources */,
+				BDDB0AA0273BD188001162FE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libSDL_Sound;
+			productName = SDL_Sound;
+			productReference = BDDB0AA2273BD188001162FE /* libSDL_Sound.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BDDB0B07273BD473001162FE /* SDL_Sound */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDDB0B0C273BD473001162FE /* Build configuration list for PBXNativeTarget "SDL_Sound" */;
+			buildPhases = (
+				BDDB0B03273BD473001162FE /* Headers */,
+				BDDB0B04273BD473001162FE /* Sources */,
+				BDDB0B05273BD473001162FE /* Frameworks */,
+				BDDB0B06273BD473001162FE /* Resources */,
+				BD03A161273BDDF7003D35F5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDL_Sound;
+			productName = SDL_Sound;
+			productReference = BDDB0B08273BD473001162FE /* SDL_Sound.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDDB0A9A273BD188001162FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					BDDB0AA1273BD188001162FE = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					BDDB0B07273BD473001162FE = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = BDDB0A9D273BD188001162FE /* Build configuration list for PBXProject "SDL_Sound" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDDB0A99273BD188001162FE;
+			productRefGroup = BDDB0AA3273BD188001162FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDDB0AA1273BD188001162FE /* libSDL_Sound */,
+				BDDB0B07273BD473001162FE /* SDL_Sound */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDDB0B06273BD473001162FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BD03A161273BDDF7003D35F5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\n\nif ! command -v find &> /dev/null || ! command -v sed &> /dev/null\nthen\n    echo \"commands could not be found\"\n    exit\nfi\n\nHEADERS=\"s/\\\"SDL.h\\\"/<SDL\\/SDL.h>/g;s/\\\"SDL_endian.h\\\"/<SDL\\/SDL_endian.h>/g;\"\nFILES=()\nPATHS=(\"$BUILT_PRODUCTS_DIR/$PRIVATE_HEADERS_FOLDER_PATH\" \"$BUILT_PRODUCTS_DIR/$PUBLIC_HEADERS_FOLDER_PATH\")\n\nfor path in \"${PATHS[@]}\"; do\n    if [ -d \"$path\" ]; then\n        for file in `find \"$path\"`;\n        do\n            FILES+=(\"$file\")\n            NAME=\"${file##*/}\"\n            HEADERS+=\"s/\\\"$NAME\\\"/<$PRODUCT_MODULE_NAME\\/$NAME>/g;\"\n        done\n    fi\ndone\n\nfor file in \"${FILES[@]}\"; do\n    sed -i '' -e \"$HEADERS\" \"$file\"\ndone\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDDB0A9F273BD188001162FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD275B72273BD7D6001B0402 /* voc.c in Sources */,
+				BD275B5B273BD7D0001B0402 /* instrum.c in Sources */,
+				BD275B58273BD7D0001B0402 /* common.c in Sources */,
+				BD275B4C273BD7C8001B0402 /* raw.c in Sources */,
+				BD275B74273BD7D6001B0402 /* flac.c in Sources */,
+				BD275B70273BD7D6001B0402 /* wav.c in Sources */,
+				BD275B6F273BD7D6001B0402 /* speex.c in Sources */,
+				BD275B57273BD7D0001B0402 /* timidity.c in Sources */,
+				BD275B5A273BD7D0001B0402 /* readmidi.c in Sources */,
+				BD275B59273BD7D0001B0402 /* mix.c in Sources */,
+				BDDB0AB1273BD1B6001162FE /* SDL_sound.c in Sources */,
+				BD275B6E273BD7D6001B0402 /* quicktime.c in Sources */,
+				BD275B5F273BD7D0001B0402 /* testmidi.c in Sources */,
+				BD275B80273BD9D6001B0402 /* audio_convert.c in Sources */,
+				BD275B75273BD7D6001B0402 /* ogg.c in Sources */,
+				BD275B73273BD7D6001B0402 /* midi.c in Sources */,
+				BD275B5D273BD7D0001B0402 /* playmidi.c in Sources */,
+				BD275B7D273BD9D0001B0402 /* alt_audio_convert.c in Sources */,
+				BD275B5E273BD7D0001B0402 /* output.c in Sources */,
+				BD275B76273BD7D6001B0402 /* modplug.c in Sources */,
+				BD275B5C273BD7D0001B0402 /* tables.c in Sources */,
+				BD275B4A273BD7C8001B0402 /* mikmod.c in Sources */,
+				BD275B71273BD7D6001B0402 /* mpg123.c in Sources */,
+				BD275B6C273BD7D6001B0402 /* aiff.c in Sources */,
+				BD275B49273BD7C8001B0402 /* au.c in Sources */,
+				BD275B6D273BD7D6001B0402 /* shn.c in Sources */,
+				BD275B60273BD7D0001B0402 /* resample.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDDB0B04273BD473001162FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD275B67273BD7D5001B0402 /* voc.c in Sources */,
+				BD275B51273BD7CF001B0402 /* instrum.c in Sources */,
+				BD275B4E273BD7CF001B0402 /* common.c in Sources */,
+				BD275B48273BD7C8001B0402 /* raw.c in Sources */,
+				BD275B69273BD7D5001B0402 /* flac.c in Sources */,
+				BD275B65273BD7D5001B0402 /* wav.c in Sources */,
+				BD275B64273BD7D5001B0402 /* speex.c in Sources */,
+				BD275B4D273BD7CF001B0402 /* timidity.c in Sources */,
+				BD275B50273BD7CF001B0402 /* readmidi.c in Sources */,
+				BD275B4F273BD7CF001B0402 /* mix.c in Sources */,
+				BD275B44273BD7A6001B0402 /* SDL_sound.c in Sources */,
+				BD275B63273BD7D5001B0402 /* quicktime.c in Sources */,
+				BD275B55273BD7CF001B0402 /* testmidi.c in Sources */,
+				BD275B7F273BD9D5001B0402 /* audio_convert.c in Sources */,
+				BD275B6A273BD7D5001B0402 /* ogg.c in Sources */,
+				BD275B68273BD7D5001B0402 /* midi.c in Sources */,
+				BD275B53273BD7CF001B0402 /* playmidi.c in Sources */,
+				BD275B7E273BD9D0001B0402 /* alt_audio_convert.c in Sources */,
+				BD275B54273BD7CF001B0402 /* output.c in Sources */,
+				BD275B6B273BD7D5001B0402 /* modplug.c in Sources */,
+				BD275B52273BD7CF001B0402 /* tables.c in Sources */,
+				BD275B46273BD7C8001B0402 /* mikmod.c in Sources */,
+				BD275B66273BD7D5001B0402 /* mpg123.c in Sources */,
+				BD275B61273BD7D5001B0402 /* aiff.c in Sources */,
+				BD275B45273BD7C8001B0402 /* au.c in Sources */,
+				BD275B62273BD7D5001B0402 /* shn.c in Sources */,
+				BD275B56273BD7CF001B0402 /* resample.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BDDB0AA9273BD188001162FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"HAVE_CONFIG_H=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../submodules/SDL/include\"",
+					"\"$(SRCROOT)/SDL_Sound\"",
+				);
+			};
+			name = Debug;
+		};
+		BDDB0AAA273BD188001162FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"HAVE_CONFIG_H=1",
+					"NDEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../submodules/SDL/include\"",
+					"\"$(SRCROOT)/SDL_Sound\"",
+				);
+			};
+			name = Release;
+		};
+		BDDB0AAC273BD188001162FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BDDB0AAD273BD188001162FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BDDB0B0D273BD473001162FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.icculus.SDL-Sound";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BDDB0B0E273BD473001162FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.icculus.SDL-Sound";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDDB0A9D273BD188001162FE /* Build configuration list for PBXProject "SDL_Sound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDDB0AA9273BD188001162FE /* Debug */,
+				BDDB0AAA273BD188001162FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDDB0AAB273BD188001162FE /* Build configuration list for PBXNativeTarget "libSDL_Sound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDDB0AAC273BD188001162FE /* Debug */,
+				BDDB0AAD273BD188001162FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDDB0B0C273BD473001162FE /* Build configuration list for PBXNativeTarget "SDL_Sound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDDB0B0D273BD473001162FE /* Debug */,
+				BDDB0B0E273BD473001162FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDDB0A9A273BD188001162FE /* Project object */;
+}
