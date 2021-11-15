@@ -1,0 +1,10 @@
+
+framework module SDL_Sound [extern_c] [system] {
+  umbrella header "SDL_Sound.h"
+
+  export *
+  module * { export * }
+  
+}
+
+
