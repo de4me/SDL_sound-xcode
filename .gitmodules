@@ -1,3 +1,6 @@
 [submodule "submodules/SDL"]
 	path = submodules/SDL
 	url = https://github.com/de4me/SDL-1.2-xcode.git
+[submodule "submodules/mpg123"]
+	path = submodules/mpg123
+	url = https://github.com/de4me/mpg123-xcode.git
