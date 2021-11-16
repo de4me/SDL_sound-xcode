@@ -102,7 +102,7 @@
 /* #undef SOUND_SUPPORTS_MODPLUG */
 
 /* Define if MPG123 support is desired. */
-/* #undef SOUND_SUPPORTS_MPG123 */
+#define SOUND_SUPPORTS_MPG123 1
 
 /* Define if OGG support is desired. */
 /* #undef SOUND_SUPPORTS_OGG */

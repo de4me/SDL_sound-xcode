@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../submodules/mpg123/Xcode/mpg123/mpg123.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:../submodules/SDL/Xcode/SDL/SDL.xcodeproj">
    </FileRef>
    <FileRef
