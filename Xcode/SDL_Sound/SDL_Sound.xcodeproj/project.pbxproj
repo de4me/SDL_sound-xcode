@@ -547,7 +547,9 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				EXECUTABLE_PREFIX = "";
+				PRIVATE_HEADERS_FOLDER_PATH = include/SDL_sound;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include/SDL_sound;
 			};
 			name = Debug;
 		};
@@ -556,7 +558,9 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				EXECUTABLE_PREFIX = "";
+				PRIVATE_HEADERS_FOLDER_PATH = include/SDL_sound;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include/SDL_sound;
 			};
 			name = Release;
 		};
