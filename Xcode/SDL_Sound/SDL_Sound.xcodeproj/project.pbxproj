@@ -496,6 +496,7 @@
 					"\"$(SRCROOT)/../../submodules/mpg123/src/libmpg123\"",
 					"\"$(SRCROOT)/../../submodules/SDL/include\"",
 					"\"$(SRCROOT)/SDL_Sound\"",
+					"\"$(BUILT_PRODUCTS_DIR)/usr/local/include\"",
 				);
 			};
 			name = Debug;
@@ -552,6 +553,7 @@
 					"\"$(SRCROOT)/../../submodules/mpg123/src/libmpg123\"",
 					"\"$(SRCROOT)/../../submodules/SDL/include\"",
 					"\"$(SRCROOT)/SDL_Sound\"",
+					"\"$(DSTROOT)/usr/local/include\"",
 				);
 			};
 			name = Release;
