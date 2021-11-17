@@ -71,6 +71,51 @@
 		BDDB0AB1273BD1B6001162FE /* SDL_sound.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0AAE273BD1B6001162FE /* SDL_sound.c */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		BD9E877627452718006AA3C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD9E877327452718006AA3C3 /* SDL.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BECDF66D0761BA81005FE872;
+			remoteInfo = "Static Library";
+		};
+		BD9E877E27452718006AA3C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD9E877327452718006AA3C3 /* SDL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BECDF66C0761BA81005FE872;
+			remoteInfo = Framework;
+		};
+		BD9E878027452718006AA3C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD9E877327452718006AA3C3 /* SDL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BECDF6B30761BA81005FE872;
+			remoteInfo = "Static Library";
+		};
+		BD9E878227452718006AA3C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD9E877327452718006AA3C3 /* SDL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BECDF6BA0761BA81005FE872;
+			remoteInfo = "Main Library";
+		};
+		BD9E878427452718006AA3C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD9E877327452718006AA3C3 /* SDL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BECDF6BE0761BA81005FE872;
+			remoteInfo = "Standard DMG";
+		};
+		BD9E878627452718006AA3C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD9E877327452718006AA3C3 /* SDL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BECDF6C30761BA81005FE872;
+			remoteInfo = "Developer Extras Package";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		BD0002BE273EE8BB00FE5960 /* SDL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD1BBEE027405A5D000B24AA /* SDL_sound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDL_sound.h; path = ../../../SDL_sound.h; sourceTree = "<group>"; };
@@ -82,6 +127,7 @@
 		BD3C8DF427442ADA008DED93 /* libFLAC++.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libFLAC++.a"; sourceTree = "<group>"; };
 		BD50012027426AB8008EB82F /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 		BD6390082743FC6E00EFFABA /* libmpg123.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libmpg123.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD9E877327452718006AA3C3 /* SDL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDL.xcodeproj; path = "/Volumes/DATA/Darwin/SDL_sound-xcode/submodules/SDL/Xcode/SDL/SDL.xcodeproj"; sourceTree = "<absolute>"; };
 		BDDB0AA2273BD188001162FE /* libSDL_Sound.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSDL_Sound.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDDB0AAE273BD1B6001162FE /* SDL_sound.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = SDL_sound.c; path = ../../../SDL_sound.c; sourceTree = "<group>"; };
 		BDDB0AAF273BD1B6001162FE /* SDL_sound_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDL_sound_internal.h; path = ../../../SDL_sound_internal.h; sourceTree = "<group>"; };
@@ -160,9 +206,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BD9E877427452718006AA3C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD9E877F27452718006AA3C3 /* SDL.framework */,
+				BD9E878127452718006AA3C3 /* libSDL.a */,
+				BD9E878327452718006AA3C3 /* libSDLmain.a */,
+				BD9E878527452718006AA3C3 /* Standard DMG */,
+				BD9E878727452718006AA3C3 /* Developer Extras Package */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		BDDB0A99273BD188001162FE = {
 			isa = PBXGroup;
 			children = (
+				BD9E877327452718006AA3C3 /* SDL.xcodeproj */,
 				BDDB0AA4273BD188001162FE /* SDL_Sound */,
 				BDDB0AA3273BD188001162FE /* Products */,
 				BD275B77273BD913001B0402 /* Frameworks */,
@@ -278,6 +337,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				BD9E877727452718006AA3C3 /* PBXTargetDependency */,
 			);
 			name = libSDL_Sound;
 			productName = SDL_Sound;
@@ -331,6 +391,12 @@
 			mainGroup = BDDB0A99273BD188001162FE;
 			productRefGroup = BDDB0AA3273BD188001162FE /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = BD9E877427452718006AA3C3 /* Products */;
+					ProjectRef = BD9E877327452718006AA3C3 /* SDL.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				BDDB0AA1273BD188001162FE /* libSDL_Sound */,
@@ -338,6 +404,44 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		BD9E877F27452718006AA3C3 /* SDL.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SDL.framework;
+			remoteRef = BD9E877E27452718006AA3C3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BD9E878127452718006AA3C3 /* libSDL.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSDL.a;
+			remoteRef = BD9E878027452718006AA3C3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BD9E878327452718006AA3C3 /* libSDLmain.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSDLmain.a;
+			remoteRef = BD9E878227452718006AA3C3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BD9E878527452718006AA3C3 /* Standard DMG */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "Standard DMG";
+			remoteRef = BD9E878427452718006AA3C3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BD9E878727452718006AA3C3 /* Developer Extras Package */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "Developer Extras Package";
+			remoteRef = BD9E878627452718006AA3C3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		BDDB0B06273BD473001162FE /* Resources */ = {
@@ -439,6 +543,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD9E877727452718006AA3C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Static Library";
+			targetProxy = BD9E877627452718006AA3C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		BDDB0AA9273BD188001162FE /* Debug */ = {
