@@ -492,6 +492,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				SYSTEM_HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../submodules/flac/include\"",
 					"\"$(SRCROOT)/../../submodules/mpg123/src/libmpg123\"",
 					"\"$(SRCROOT)/../../submodules/SDL/include\"",
 					"\"$(SRCROOT)/SDL_Sound\"",
@@ -547,6 +548,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 				SYSTEM_HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../submodules/flac/include\"",
 					"\"$(SRCROOT)/../../submodules/mpg123/src/libmpg123\"",
 					"\"$(SRCROOT)/../../submodules/SDL/include\"",
 					"\"$(SRCROOT)/SDL_Sound\"",
