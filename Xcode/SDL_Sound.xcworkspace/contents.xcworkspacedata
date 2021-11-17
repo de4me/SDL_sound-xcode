@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../submodules/vorbis/Xcode/vorbis/vorbis.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:../submodules/flac/Xcode/flac/flac.xcodeproj">
    </FileRef>
    <FileRef

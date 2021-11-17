@@ -105,7 +105,7 @@
 #define SOUND_SUPPORTS_MPG123 1
 
 /* Define if OGG support is desired. */
-/* #undef SOUND_SUPPORTS_OGG */
+#define SOUND_SUPPORTS_OGG 1
 
 /* Define if RAW support is desired. */
 #define SOUND_SUPPORTS_RAW 1

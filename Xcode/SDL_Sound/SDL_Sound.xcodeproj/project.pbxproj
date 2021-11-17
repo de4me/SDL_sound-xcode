@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BD0002BF273EE8BB00FE5960 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD0002BE273EE8BB00FE5960 /* SDL.framework */; };
 		BD14EDD227459FCD003F8C76 /* libFLAC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD3C60182744EE8F00500437 /* libFLAC.a */; };
 		BD1BBEE127405A5D000B24AA /* SDL_sound.h in Headers */ = {isa = PBXBuildFile; fileRef = BD1BBEE027405A5D000B24AA /* SDL_sound.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD1BBEE227405A85000B24AA /* SDL_sound.h in Headers */ = {isa = PBXBuildFile; fileRef = BD1BBEE027405A5D000B24AA /* SDL_sound.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -67,6 +66,11 @@
 		BD3C60192744EE8F00500437 /* libFLAC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD3C60182744EE8F00500437 /* libFLAC.a */; };
 		BD6390092743FC6E00EFFABA /* libmpg123.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD6390082743FC6E00EFFABA /* libmpg123.a */; };
 		BD63900A2743FC8C00EFFABA /* libmpg123.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD6390082743FC6E00EFFABA /* libmpg123.a */; };
+		BDCB1EAE2745A3D60062C0FA /* libogg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BDCB1EAD2745A3D60062C0FA /* libogg.a */; };
+		BDCB1EB02745A3DE0062C0FA /* libvorbis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BDCB1EAF2745A3DE0062C0FA /* libvorbis.a */; };
+		BDCB1EB52745A46F0062C0FA /* libogg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BDCB1EAD2745A3D60062C0FA /* libogg.a */; };
+		BDCB1EB62745A4760062C0FA /* libvorbis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BDCB1EAF2745A3DE0062C0FA /* libvorbis.a */; };
+		BDCB1EB72745A4A90062C0FA /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD09EE6A27453E7A000CE54D /* SDL.framework */; };
 		BDDB0AB1273BD1B6001162FE /* SDL_sound.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0AAE273BD1B6001162FE /* SDL_sound.c */; };
 /* End PBXBuildFile section */
 
@@ -125,6 +129,8 @@
 		BD3C60182744EE8F00500437 /* libFLAC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFLAC.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD50012027426AB8008EB82F /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 		BD6390082743FC6E00EFFABA /* libmpg123.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libmpg123.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDCB1EAD2745A3D60062C0FA /* libogg.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libogg.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDCB1EAF2745A3DE0062C0FA /* libvorbis.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libvorbis.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDDB0AA2273BD188001162FE /* libSDL_Sound.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSDL_Sound.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDDB0AAE273BD1B6001162FE /* SDL_sound.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = SDL_sound.c; path = ../../../SDL_sound.c; sourceTree = "<group>"; };
 		BDDB0AAF273BD1B6001162FE /* SDL_sound_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDL_sound_internal.h; path = ../../../SDL_sound_internal.h; sourceTree = "<group>"; };
@@ -172,6 +178,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDCB1EB62745A4760062C0FA /* libvorbis.a in Frameworks */,
+				BDCB1EB52745A46F0062C0FA /* libogg.a in Frameworks */,
 				BD14EDD227459FCD003F8C76 /* libFLAC.a in Frameworks */,
 				BD6390092743FC6E00EFFABA /* libmpg123.a in Frameworks */,
 			);
@@ -181,7 +189,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD0002BF273EE8BB00FE5960 /* SDL.framework in Frameworks */,
+				BDCB1EB02745A3DE0062C0FA /* libvorbis.a in Frameworks */,
+				BDCB1EAE2745A3D60062C0FA /* libogg.a in Frameworks */,
+				BDCB1EB72745A4A90062C0FA /* SDL.framework in Frameworks */,
 				BD63900A2743FC8C00EFFABA /* libmpg123.a in Frameworks */,
 				BD3C60192744EE8F00500437 /* libFLAC.a in Frameworks */,
 			);
@@ -205,6 +215,8 @@
 		BD275B77273BD913001B0402 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BDCB1EAF2745A3DE0062C0FA /* libvorbis.a */,
+				BDCB1EAD2745A3D60062C0FA /* libogg.a */,
 				BD3C60182744EE8F00500437 /* libFLAC.a */,
 				BD6390082743FC6E00EFFABA /* libmpg123.a */,
 				BD0002BE273EE8BB00FE5960 /* SDL.framework */,
