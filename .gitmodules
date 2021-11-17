@@ -4,3 +4,6 @@
 [submodule "submodules/mpg123"]
 	path = submodules/mpg123
 	url = https://github.com/de4me/mpg123-xcode.git
+[submodule "submodules/flac"]
+	path = submodules/flac
+	url = https://github.com/de4me/flac-xocde.git
