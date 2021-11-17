@@ -225,11 +225,10 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				SYSTEM_HEADER_SEARCH_PATHS = (
-					"\"$(SRCROOT)/../../submodules/SDL/include\"",
 					"\"$(SRCROOT)/../SDL_Sound/SDL_Sound\"",
 					"\"$(BUILT_PRODUCTS_DIR)/usr/local/include\"",
 				);
-				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../..\"";
+				USER_HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/usr/local/include/SDL\"";
 			};
 			name = Debug;
 		};
@@ -287,11 +286,10 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 				SYSTEM_HEADER_SEARCH_PATHS = (
-					"\"$(SRCROOT)/../../submodules/SDL/include\"",
 					"\"$(SRCROOT)/../SDL_Sound/SDL_Sound\"",
 					"\"$(DSTROOT)/usr/local/include\"",
 				);
-				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../..\"";
+				USER_HEADER_SEARCH_PATHS = "\"$(DSTROOT)/usr/local/include/SDL\"";
 			};
 			name = Release;
 		};
