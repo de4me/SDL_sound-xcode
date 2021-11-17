@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../submodules/flac/Xcode/flac/flac.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:../submodules/mpg123/Xcode/mpg123/mpg123.xcodeproj">
    </FileRef>
    <FileRef

@@ -90,7 +90,7 @@
 #define SOUND_SUPPORTS_AU 1
 
 /* Define if FLAC support is desired. */
-/* #undef SOUND_SUPPORTS_FLAC */
+#define SOUND_SUPPORTS_FLAC 1
 
 /* Define if MIDI support is desired. */
 #define SOUND_SUPPORTS_MIDI 1
