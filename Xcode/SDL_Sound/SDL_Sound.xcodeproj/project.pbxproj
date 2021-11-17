@@ -381,7 +381,7 @@
 				};
 			};
 			buildConfigurationList = BDDB0A9D273BD188001162FE /* Build configuration list for PBXProject "SDL_Sound" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
