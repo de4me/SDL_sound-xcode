@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BD0002BF273EE8BB00FE5960 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD0002BE273EE8BB00FE5960 /* SDL.framework */; };
+		BD14EDD227459FCD003F8C76 /* libFLAC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD3C60182744EE8F00500437 /* libFLAC.a */; };
 		BD1BBEE127405A5D000B24AA /* SDL_sound.h in Headers */ = {isa = PBXBuildFile; fileRef = BD1BBEE027405A5D000B24AA /* SDL_sound.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD1BBEE227405A85000B24AA /* SDL_sound.h in Headers */ = {isa = PBXBuildFile; fileRef = BD1BBEE027405A5D000B24AA /* SDL_sound.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD275B44273BD7A6001B0402 /* SDL_sound.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0AAE273BD1B6001162FE /* SDL_sound.c */; };
@@ -64,8 +65,6 @@
 		BD275B7F273BD9D5001B0402 /* audio_convert.c in Sources */ = {isa = PBXBuildFile; fileRef = BD275B7C273BD9CC001B0402 /* audio_convert.c */; };
 		BD275B80273BD9D6001B0402 /* audio_convert.c in Sources */ = {isa = PBXBuildFile; fileRef = BD275B7C273BD9CC001B0402 /* audio_convert.c */; };
 		BD3C60192744EE8F00500437 /* libFLAC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD3C60182744EE8F00500437 /* libFLAC.a */; };
-		BD3C8DF727442B34008DED93 /* libFLAC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD3C8DF327442ADA008DED93 /* libFLAC.a */; };
-		BD3C8DF827442B37008DED93 /* libFLAC++.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD3C8DF427442ADA008DED93 /* libFLAC++.a */; };
 		BD6390092743FC6E00EFFABA /* libmpg123.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD6390082743FC6E00EFFABA /* libmpg123.a */; };
 		BD63900A2743FC8C00EFFABA /* libmpg123.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD6390082743FC6E00EFFABA /* libmpg123.a */; };
 		BDDB0AB1273BD1B6001162FE /* SDL_sound.c in Sources */ = {isa = PBXBuildFile; fileRef = BDDB0AAE273BD1B6001162FE /* SDL_sound.c */; };
@@ -124,8 +123,6 @@
 		BD275B7B273BD9CC001B0402 /* alt_audio_convert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = alt_audio_convert.h; path = ../../../alt_audio_convert.h; sourceTree = "<group>"; };
 		BD275B7C273BD9CC001B0402 /* audio_convert.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = audio_convert.c; path = ../../../audio_convert.c; sourceTree = "<group>"; };
 		BD3C60182744EE8F00500437 /* libFLAC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFLAC.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD3C8DF327442ADA008DED93 /* libFLAC.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFLAC.a; sourceTree = "<group>"; };
-		BD3C8DF427442ADA008DED93 /* libFLAC++.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libFLAC++.a"; sourceTree = "<group>"; };
 		BD50012027426AB8008EB82F /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 		BD6390082743FC6E00EFFABA /* libmpg123.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libmpg123.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDDB0AA2273BD188001162FE /* libSDL_Sound.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSDL_Sound.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -175,9 +172,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD14EDD227459FCD003F8C76 /* libFLAC.a in Frameworks */,
 				BD6390092743FC6E00EFFABA /* libmpg123.a in Frameworks */,
-				BD3C8DF827442B37008DED93 /* libFLAC++.a in Frameworks */,
-				BD3C8DF727442B34008DED93 /* libFLAC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,8 +206,6 @@
 			isa = PBXGroup;
 			children = (
 				BD3C60182744EE8F00500437 /* libFLAC.a */,
-				BD3C8DF327442ADA008DED93 /* libFLAC.a */,
-				BD3C8DF427442ADA008DED93 /* libFLAC++.a */,
 				BD6390082743FC6E00EFFABA /* libmpg123.a */,
 				BD0002BE273EE8BB00FE5960 /* SDL.framework */,
 			);
