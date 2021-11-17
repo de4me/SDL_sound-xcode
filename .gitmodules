@@ -7,3 +7,6 @@
 [submodule "submodules/flac"]
 	path = submodules/flac
 	url = https://github.com/de4me/flac-xcode.git
+[submodule "submodules/vorbis"]
+	path = submodules/vorbis
+	url = https://github.com/de4me/vorbis-xcode.git
