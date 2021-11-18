@@ -40,7 +40,7 @@
 		BD31E677273C12EC00FBDDBC /* libSDL.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSDL.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD31E679273C12F000FBDDBC /* libSDLmain.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSDLmain.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDDA6CEF273BF6B10034371A /* playsound_simple */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = playsound_simple; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDDA6CF9273BF6C80034371A /* playsound_simple.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = playsound_simple.c; path = ../../../examples/playsound_simple.c; sourceTree = "<group>"; };
+		BDDA6CF9273BF6C80034371A /* playsound_simple.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = playsound_simple.c; sourceTree = "<group>"; };
 		BDDA6D02273BF70E0034371A /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		BDDA6D04273BF7160034371A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		BDDA6D06273BF71E0034371A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -69,7 +69,7 @@
 		BDDA6CE6273BF6B10034371A = {
 			isa = PBXGroup;
 			children = (
-				BDDA6CF1273BF6B10034371A /* playsound_simple */,
+				BDDA6CF1273BF6B10034371A /* src */,
 				BDDA6CF0273BF6B10034371A /* Products */,
 				BDDA6CFB273BF6EA0034371A /* Frameworks */,
 			);
@@ -83,12 +83,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BDDA6CF1273BF6B10034371A /* playsound_simple */ = {
+		BDDA6CF1273BF6B10034371A /* src */ = {
 			isa = PBXGroup;
 			children = (
 				BDDA6CF9273BF6C80034371A /* playsound_simple.c */,
 			);
-			path = playsound_simple;
+			name = src;
+			path = ../../examples;
 			sourceTree = "<group>";
 		};
 		BDDA6CFB273BF6EA0034371A /* Frameworks */ = {

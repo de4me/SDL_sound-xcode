@@ -32,7 +32,7 @@
 
 /* Begin PBXFileReference section */
 		BD58AB95273C55A9006F2363 /* playsound */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = playsound; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD58AB9F273C55BE006F2363 /* playsound.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = playsound.c; path = ../../../examples/playsound.c; sourceTree = "<group>"; };
+		BD58AB9F273C55BE006F2363 /* playsound.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = playsound.c; sourceTree = "<group>"; };
 		BD58ABA2273C5821006F2363 /* libSDL.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSDL.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD58ABA4273C5826006F2363 /* libSDLmain.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSDLmain.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD58ABA6273C582F006F2363 /* libSDL_Sound.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSDL_Sound.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,7 +65,7 @@
 		BD58AB8C273C55A9006F2363 = {
 			isa = PBXGroup;
 			children = (
-				BD58AB97273C55A9006F2363 /* playsound */,
+				BD58AB97273C55A9006F2363 /* src */,
 				BD58AB96273C55A9006F2363 /* Products */,
 				BD58ABA1273C5821006F2363 /* Frameworks */,
 			);
@@ -79,12 +79,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BD58AB97273C55A9006F2363 /* playsound */ = {
+		BD58AB97273C55A9006F2363 /* src */ = {
 			isa = PBXGroup;
 			children = (
 				BD58AB9F273C55BE006F2363 /* playsound.c */,
 			);
-			path = playsound;
+			name = src;
+			path = ../../examples;
 			sourceTree = "<group>";
 		};
 		BD58ABA1273C5821006F2363 /* Frameworks */ = {
@@ -225,7 +226,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				SYSTEM_HEADER_SEARCH_PATHS = (
-					"\"$(SRCROOT)/../SDL_Sound/SDL_Sound\"",
+					"\"$(SRCROOT)/../SDL_Sound/include\"",
 					"\"$(BUILT_PRODUCTS_DIR)/usr/local/include\"",
 				);
 				USER_HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/usr/local/include/SDL\"";
@@ -286,7 +287,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 				SYSTEM_HEADER_SEARCH_PATHS = (
-					"\"$(SRCROOT)/../SDL_Sound/SDL_Sound\"",
+					"\"$(SRCROOT)/../SDL_Sound/include\"",
 					"\"$(DSTROOT)/usr/local/include\"",
 				);
 				USER_HEADER_SEARCH_PATHS = "\"$(DSTROOT)/usr/local/include/SDL\"";
