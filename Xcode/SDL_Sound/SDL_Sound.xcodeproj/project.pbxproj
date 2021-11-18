@@ -117,6 +117,13 @@
 			remoteGlobalIDString = BECDF66D0761BA81005FE872;
 			remoteInfo = "Static Library";
 		};
+		BD3CE2F92746235C00823D8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD09EE6027453E7A000CE54D /* SDL.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BECDF6B40761BA81005FE872;
+			remoteInfo = "Main Library";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -343,6 +350,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				BD3CE2FA2746235C00823D8C /* PBXTargetDependency */,
 				BD09EE7427453E91000CE54D /* PBXTargetDependency */,
 			);
 			name = libSDL_Sound;
@@ -555,6 +563,11 @@
 			isa = PBXTargetDependency;
 			name = "Static Library";
 			targetProxy = BD09EE7327453E91000CE54D /* PBXContainerItemProxy */;
+		};
+		BD3CE2FA2746235C00823D8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Main Library";
+			targetProxy = BD3CE2F92746235C00823D8C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
