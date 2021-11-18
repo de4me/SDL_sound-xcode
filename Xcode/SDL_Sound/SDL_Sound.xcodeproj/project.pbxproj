@@ -122,19 +122,19 @@
 /* Begin PBXFileReference section */
 		BD0002BE273EE8BB00FE5960 /* SDL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD09EE6027453E7A000CE54D /* SDL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDL.xcodeproj; path = ../../submodules/SDL/Xcode/SDL/SDL.xcodeproj; sourceTree = "<group>"; };
-		BD1BBEE027405A5D000B24AA /* SDL_sound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDL_sound.h; path = ../../../SDL_sound.h; sourceTree = "<group>"; };
-		BD275B7A273BD9CC001B0402 /* alt_audio_convert.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = alt_audio_convert.c; path = ../../../alt_audio_convert.c; sourceTree = "<group>"; };
-		BD275B7B273BD9CC001B0402 /* alt_audio_convert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = alt_audio_convert.h; path = ../../../alt_audio_convert.h; sourceTree = "<group>"; };
-		BD275B7C273BD9CC001B0402 /* audio_convert.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = audio_convert.c; path = ../../../audio_convert.c; sourceTree = "<group>"; };
+		BD1BBEE027405A5D000B24AA /* SDL_sound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_sound.h; sourceTree = "<group>"; };
+		BD275B7A273BD9CC001B0402 /* alt_audio_convert.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = alt_audio_convert.c; sourceTree = "<group>"; };
+		BD275B7B273BD9CC001B0402 /* alt_audio_convert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = alt_audio_convert.h; sourceTree = "<group>"; };
+		BD275B7C273BD9CC001B0402 /* audio_convert.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = audio_convert.c; sourceTree = "<group>"; };
 		BD3C60182744EE8F00500437 /* libFLAC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFLAC.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD50012027426AB8008EB82F /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		BD3CE2F62746201900823D8C /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = config.h; path = include/config.h; sourceTree = "<group>"; };
 		BD6390082743FC6E00EFFABA /* libmpg123.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libmpg123.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDCB1EAD2745A3D60062C0FA /* libogg.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libogg.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDCB1EAF2745A3DE0062C0FA /* libvorbis.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libvorbis.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDDB0AA2273BD188001162FE /* libSDL_Sound.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSDL_Sound.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDDB0AAE273BD1B6001162FE /* SDL_sound.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = SDL_sound.c; path = ../../../SDL_sound.c; sourceTree = "<group>"; };
-		BDDB0AAF273BD1B6001162FE /* SDL_sound_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDL_sound_internal.h; path = ../../../SDL_sound_internal.h; sourceTree = "<group>"; };
-		BDDB0AB4273BD1C7001162FE /* filter_templates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = filter_templates.h; path = ../../../filter_templates.h; sourceTree = "<group>"; };
+		BDDB0AAE273BD1B6001162FE /* SDL_sound.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SDL_sound.c; sourceTree = "<group>"; };
+		BDDB0AAF273BD1B6001162FE /* SDL_sound_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_sound_internal.h; sourceTree = "<group>"; };
+		BDDB0AB4273BD1C7001162FE /* filter_templates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = filter_templates.h; sourceTree = "<group>"; };
 		BDDB0AB7273BD280001162FE /* au.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = au.c; sourceTree = "<group>"; };
 		BDDB0AB8273BD280001162FE /* skeleton.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = skeleton.c; sourceTree = "<group>"; };
 		BDDB0AB9273BD280001162FE /* raw.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = raw.c; sourceTree = "<group>"; };
@@ -227,8 +227,9 @@
 		BDDB0A99273BD188001162FE = {
 			isa = PBXGroup;
 			children = (
+				BD3CE2F62746201900823D8C /* config.h */,
 				BD09EE6027453E7A000CE54D /* SDL.xcodeproj */,
-				BDDB0AA4273BD188001162FE /* SDL_Sound */,
+				BDDB0AA4273BD188001162FE /* src */,
 				BDDB0AA3273BD188001162FE /* Products */,
 				BD275B77273BD913001B0402 /* Frameworks */,
 			);
@@ -243,10 +244,9 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BDDB0AA4273BD188001162FE /* SDL_Sound */ = {
+		BDDB0AA4273BD188001162FE /* src */ = {
 			isa = PBXGroup;
 			children = (
-				BD50012027426AB8008EB82F /* config.h */,
 				BDDB0AB4273BD1C7001162FE /* filter_templates.h */,
 				BD275B7A273BD9CC001B0402 /* alt_audio_convert.c */,
 				BD275B7B273BD9CC001B0402 /* alt_audio_convert.h */,
@@ -256,7 +256,8 @@
 				BD1BBEE027405A5D000B24AA /* SDL_sound.h */,
 				BDDB0AB6273BD280001162FE /* decoders */,
 			);
-			path = SDL_Sound;
+			name = src;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		BDDB0AB6273BD280001162FE /* decoders */ = {
@@ -279,8 +280,7 @@
 				BDDB0AEE273BD280001162FE /* flac.c */,
 				BDDB0AFE273BD280001162FE /* voc.c */,
 			);
-			name = decoders;
-			path = ../../../decoders;
+			path = decoders;
 			sourceTree = "<group>";
 		};
 		BDDB0ABC273BD280001162FE /* timidity */ = {
@@ -613,7 +613,7 @@
 					"\"$(SRCROOT)/../../submodules/flac/include\"",
 					"\"$(SRCROOT)/../../submodules/mpg123/src/libmpg123\"",
 					"\"$(SRCROOT)/../../submodules/SDL/include\"",
-					"\"$(SRCROOT)/SDL_Sound\"",
+					"\"$(SRCROOT)/include\"",
 					"\"$(BUILT_PRODUCTS_DIR)/usr/local/include\"",
 				);
 			};
@@ -670,7 +670,7 @@
 					"\"$(SRCROOT)/../../submodules/flac/include\"",
 					"\"$(SRCROOT)/../../submodules/mpg123/src/libmpg123\"",
 					"\"$(SRCROOT)/../../submodules/SDL/include\"",
-					"\"$(SRCROOT)/SDL_Sound\"",
+					"\"$(SRCROOT)/include\"",
 					"\"$(DSTROOT)/usr/local/include\"",
 				);
 			};
