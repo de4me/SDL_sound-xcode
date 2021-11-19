@@ -2,18 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:../submodules/vorbis/Xcode/vorbis/vorbis.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:../submodules/flac/Xcode/flac/flac.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:../submodules/mpg123/Xcode/mpg123/mpg123.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:../submodules/SDL/Xcode/SDL/SDL.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:SDL_Sound/SDL_Sound.xcodeproj">
    </FileRef>
    <FileRef
