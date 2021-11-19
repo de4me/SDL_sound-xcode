@@ -124,6 +124,69 @@
 			remoteGlobalIDString = BECDF6B40761BA81005FE872;
 			remoteInfo = "Main Library";
 		};
+		BD553A172747FE0500E7897F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD553A112747FE0500E7897F /* mpg123.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BD8706222743C0CF00018E75;
+			remoteInfo = libmpg123;
+		};
+		BD553A192747FE0500E7897F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD553A112747FE0500E7897F /* mpg123.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BDB4B6152743C50E008FB306;
+			remoteInfo = libcompat;
+		};
+		BD553A1B2747FE0500E7897F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD553A112747FE0500E7897F /* mpg123.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BD32114A2743E7CC00E576CB;
+			remoteInfo = mpg123;
+		};
+		BD553A282747FE1100E7897F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD553A212747FE1100E7897F /* flac.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BD3C8E02274435CB008DED93;
+			remoteInfo = libFLAC;
+		};
+		BD553A2A2747FE1100E7897F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD553A212747FE1100E7897F /* flac.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BD9EFC1627445A9F00DC1510;
+			remoteInfo = "libFLAC++";
+		};
+		BD553A2C2747FE1100E7897F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD553A212747FE1100E7897F /* flac.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BD077CC827443DD100C1E879;
+			remoteInfo = FLAC;
+		};
+		BD553A2E2747FE1100E7897F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD553A212747FE1100E7897F /* flac.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BD9EFBFF274455F100DC1510;
+			remoteInfo = "FLAC++";
+		};
+		BD553A3E2747FE4900E7897F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD553A392747FE4900E7897F /* vorbis.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BDF4351927458794007872F8;
+			remoteInfo = libvorbis;
+		};
+		BD553A402747FE4900E7897F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD553A392747FE4900E7897F /* vorbis.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BD6D7F3727458FB7001A64F4;
+			remoteInfo = vorbis;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -135,6 +198,9 @@
 		BD275B7C273BD9CC001B0402 /* audio_convert.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = audio_convert.c; sourceTree = "<group>"; };
 		BD3C60182744EE8F00500437 /* libFLAC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFLAC.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD3CE2F62746201900823D8C /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = config.h; path = include/config.h; sourceTree = "<group>"; };
+		BD553A112747FE0500E7897F /* mpg123.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = mpg123.xcodeproj; path = ../../submodules/mpg123/Xcode/mpg123/mpg123.xcodeproj; sourceTree = "<group>"; };
+		BD553A212747FE1100E7897F /* flac.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = flac.xcodeproj; path = ../../submodules/flac/Xcode/flac/flac.xcodeproj; sourceTree = "<group>"; };
+		BD553A392747FE4900E7897F /* vorbis.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = vorbis.xcodeproj; path = ../../submodules/vorbis/Xcode/vorbis/vorbis.xcodeproj; sourceTree = "<group>"; };
 		BD6390082743FC6E00EFFABA /* libmpg123.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libmpg123.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDCB1EAD2745A3D60062C0FA /* libogg.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libogg.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDCB1EAF2745A3DE0062C0FA /* libvorbis.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libvorbis.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -231,11 +297,44 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BD553A122747FE0500E7897F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD553A182747FE0500E7897F /* libmpg123.a */,
+				BD553A1A2747FE0500E7897F /* libcompat.a */,
+				BD553A1C2747FE0500E7897F /* mpg123.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD553A222747FE1100E7897F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD553A292747FE1100E7897F /* libFLAC.a */,
+				BD553A2B2747FE1100E7897F /* libFLAC++.a */,
+				BD553A2D2747FE1100E7897F /* FLAC.framework */,
+				BD553A2F2747FE1100E7897F /* FLAC++.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD553A3A2747FE4900E7897F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD553A3F2747FE4900E7897F /* libvorbis.a */,
+				BD553A412747FE4900E7897F /* vorbis.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		BDDB0A99273BD188001162FE = {
 			isa = PBXGroup;
 			children = (
 				BD3CE2F62746201900823D8C /* config.h */,
 				BD09EE6027453E7A000CE54D /* SDL.xcodeproj */,
+				BD553A112747FE0500E7897F /* mpg123.xcodeproj */,
+				BD553A212747FE1100E7897F /* flac.xcodeproj */,
+				BD553A392747FE4900E7897F /* vorbis.xcodeproj */,
 				BDDB0AA4273BD188001162FE /* src */,
 				BDDB0AA3273BD188001162FE /* Products */,
 				BD275B77273BD913001B0402 /* Frameworks */,
@@ -407,8 +506,20 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = BD553A222747FE1100E7897F /* Products */;
+					ProjectRef = BD553A212747FE1100E7897F /* flac.xcodeproj */;
+				},
+				{
+					ProductGroup = BD553A122747FE0500E7897F /* Products */;
+					ProjectRef = BD553A112747FE0500E7897F /* mpg123.xcodeproj */;
+				},
+				{
 					ProductGroup = BD09EE6127453E7A000CE54D /* Products */;
 					ProjectRef = BD09EE6027453E7A000CE54D /* SDL.xcodeproj */;
+				},
+				{
+					ProductGroup = BD553A3A2747FE4900E7897F /* Products */;
+					ProjectRef = BD553A392747FE4900E7897F /* vorbis.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -453,6 +564,69 @@
 			fileType = "compiled.mach-o.executable";
 			path = "Developer Extras Package";
 			remoteRef = BD09EE7127453E7A000CE54D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BD553A182747FE0500E7897F /* libmpg123.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libmpg123.a;
+			remoteRef = BD553A172747FE0500E7897F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BD553A1A2747FE0500E7897F /* libcompat.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcompat.a;
+			remoteRef = BD553A192747FE0500E7897F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BD553A1C2747FE0500E7897F /* mpg123.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = mpg123.framework;
+			remoteRef = BD553A1B2747FE0500E7897F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BD553A292747FE1100E7897F /* libFLAC.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFLAC.a;
+			remoteRef = BD553A282747FE1100E7897F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BD553A2B2747FE1100E7897F /* libFLAC++.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libFLAC++.a";
+			remoteRef = BD553A2A2747FE1100E7897F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BD553A2D2747FE1100E7897F /* FLAC.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FLAC.framework;
+			remoteRef = BD553A2C2747FE1100E7897F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BD553A2F2747FE1100E7897F /* FLAC++.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = "FLAC++.framework";
+			remoteRef = BD553A2E2747FE1100E7897F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BD553A3F2747FE4900E7897F /* libvorbis.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libvorbis.a;
+			remoteRef = BD553A3E2747FE4900E7897F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BD553A412747FE4900E7897F /* vorbis.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = vorbis.framework;
+			remoteRef = BD553A402747FE4900E7897F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
