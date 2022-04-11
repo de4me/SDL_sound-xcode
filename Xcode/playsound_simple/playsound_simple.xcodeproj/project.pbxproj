@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		BD31E666273BFA3800FBDDBC /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD31E665273BFA3800FBDDBC /* AudioUnit.framework */; };
-		BD31E667273BFA6B00FBDDBC /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDDA6D04273BF7160034371A /* AppKit.framework */; };
 		BD31E669273BFA7B00FBDDBC /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD31E668273BFA7B00FBDDBC /* Carbon.framework */; };
 		BD31E66B273BFA8D00FBDDBC /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD31E66A273BFA8D00FBDDBC /* OpenGL.framework */; };
 		BD31E678273C12EC00FBDDBC /* libSDL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD31E677273C12EC00FBDDBC /* libSDL.a */; };
@@ -55,7 +54,6 @@
 				BD31E66B273BFA8D00FBDDBC /* OpenGL.framework in Frameworks */,
 				BD31E669273BFA7B00FBDDBC /* Carbon.framework in Frameworks */,
 				BDDA6D03273BF70E0034371A /* IOKit.framework in Frameworks */,
-				BD31E667273BFA6B00FBDDBC /* AppKit.framework in Frameworks */,
 				BD31E67A273C12F000FBDDBC /* libSDLmain.a in Frameworks */,
 				BD31E666273BFA3800FBDDBC /* AudioUnit.framework in Frameworks */,
 				BD31E67B273C12F600FBDDBC /* libSDL_Sound.a in Frameworks */,
@@ -136,7 +134,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastUpgradeCheck = 1310;
+				LastUpgradeCheck = 1330;
 				TargetAttributes = {
 					BDDA6CEE273BF6B10034371A = {
 						CreatedOnToolsVersion = 13.1;
@@ -293,6 +291,7 @@
 		BDDA6CF7273BF6B10034371A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -301,6 +300,7 @@
 		BDDA6CF8273BF6B10034371A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
