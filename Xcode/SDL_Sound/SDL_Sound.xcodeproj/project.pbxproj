@@ -76,6 +76,125 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		BD228C21297584E700234174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD553A212747FE1100E7897F /* flac.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BD53FAA5284B6A7100B71F7E;
+			remoteInfo = libgetopt;
+		};
+		BD228C23297584E700234174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD553A212747FE1100E7897F /* flac.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BD53FAB9284B6C5000B71F7E;
+			remoteInfo = libutf8;
+		};
+		BD228C25297584E700234174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD553A212747FE1100E7897F /* flac.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BD53FAC4284B6D5900B71F7E;
+			remoteInfo = libgrabbag;
+		};
+		BD228C27297584E700234174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD553A212747FE1100E7897F /* flac.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BD53FAD4284B6E8400B71F7E;
+			remoteInfo = libreplaygain_analysis;
+		};
+		BD228C29297584E700234174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD553A212747FE1100E7897F /* flac.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BD53FAB0284B6BF400B71F7E;
+			remoteInfo = libreplaygain_synthesis;
+		};
+		BD228C2B297584E700234174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD553A212747FE1100E7897F /* flac.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BD53FA61284B666600B71F7E;
+			remoteInfo = flac;
+		};
+		BD228C2D297584E700234174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD553A212747FE1100E7897F /* flac.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BD53FB20284B77DF00B71F7E;
+			remoteInfo = metaflac;
+		};
+		BD228C2F297584E700234174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD553A212747FE1100E7897F /* flac.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BD53FB49284B7CB200B71F7E;
+			remoteInfo = flacdiff;
+		};
+		BD228C3D297584E700234174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD553A112747FE0500E7897F /* mpg123.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BDAF17B028EA295F003328DF;
+			remoteInfo = libout123;
+		};
+		BD228C3F297584E700234174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD553A112747FE0500E7897F /* mpg123.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BDB736AD28EAE2B30022D468;
+			remoteInfo = out123;
+		};
+		BD228C41297584E700234174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD553A112747FE0500E7897F /* mpg123.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BDAF17E928EA3276003328DF;
+			remoteInfo = libsyn123;
+		};
+		BD228C43297584E700234174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD553A112747FE0500E7897F /* mpg123.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BDAF17FA28EA33DB003328DF;
+			remoteInfo = syn123;
+		};
+		BD228C45297584E700234174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD553A112747FE0500E7897F /* mpg123.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BDB7369A28EADFFB0022D468;
+			remoteInfo = coreaudio;
+		};
+		BD228C47297584E700234174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD553A112747FE0500E7897F /* mpg123.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BDB736A328EAE1110022D468;
+			remoteInfo = openal;
+		};
+		BD228C49297584E700234174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD553A112747FE0500E7897F /* mpg123.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BD01EFA528EB1D9500A346BF;
+			remoteInfo = dummy;
+		};
+		BD228C4B297584E700234174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD553A112747FE0500E7897F /* mpg123.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BDB736F128EB002D0022D468;
+			remoteInfo = out123c;
+		};
+		BD228C4D297584E700234174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD553A112747FE0500E7897F /* mpg123.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BD01EF7E28EB0E3300A346BF;
+			remoteInfo = mpg123c;
+		};
 		BD553A172747FE0500E7897F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BD553A112747FE0500E7897F /* mpg123.xcodeproj */;
@@ -243,6 +362,15 @@
 				BD553A182747FE0500E7897F /* libmpg123.a */,
 				BD553A1A2747FE0500E7897F /* libcompat.a */,
 				BD553A1C2747FE0500E7897F /* mpg123.framework */,
+				BD228C3E297584E700234174 /* libout123.a */,
+				BD228C40297584E700234174 /* out123.framework */,
+				BD228C42297584E700234174 /* libsyn123.a */,
+				BD228C44297584E700234174 /* syn123.framework */,
+				BD228C46297584E700234174 /* output_coreaudio.so */,
+				BD228C48297584E700234174 /* output_openal.so */,
+				BD228C4A297584E700234174 /* output_dummy.so */,
+				BD228C4C297584E700234174 /* out123 */,
+				BD228C4E297584E700234174 /* mpg123 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -254,6 +382,14 @@
 				BD553A2B2747FE1100E7897F /* libFLAC++.a */,
 				BD553A2D2747FE1100E7897F /* FLAC.framework */,
 				BD553A2F2747FE1100E7897F /* FLAC++.framework */,
+				BD228C22297584E700234174 /* libgetopt.a */,
+				BD228C24297584E700234174 /* libutf8.a */,
+				BD228C26297584E700234174 /* libgrabbag.a */,
+				BD228C28297584E700234174 /* libreplaygain_analysis.a */,
+				BD228C2A297584E700234174 /* libreplaygain_synthesis.a */,
+				BD228C2C297584E700234174 /* flac */,
+				BD228C2E297584E700234174 /* metaflac */,
+				BD228C30297584E700234174 /* flacdiff */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -421,7 +557,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastUpgradeCheck = 1310;
+				LastUpgradeCheck = 1420;
 				TargetAttributes = {
 					BDDB0AA1273BD188001162FE = {
 						CreatedOnToolsVersion = 13.1;
@@ -465,6 +601,125 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		BD228C22297584E700234174 /* libgetopt.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libgetopt.a;
+			remoteRef = BD228C21297584E700234174 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BD228C24297584E700234174 /* libutf8.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libutf8.a;
+			remoteRef = BD228C23297584E700234174 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BD228C26297584E700234174 /* libgrabbag.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libgrabbag.a;
+			remoteRef = BD228C25297584E700234174 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BD228C28297584E700234174 /* libreplaygain_analysis.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libreplaygain_analysis.a;
+			remoteRef = BD228C27297584E700234174 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BD228C2A297584E700234174 /* libreplaygain_synthesis.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libreplaygain_synthesis.a;
+			remoteRef = BD228C29297584E700234174 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BD228C2C297584E700234174 /* flac */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = flac;
+			remoteRef = BD228C2B297584E700234174 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BD228C2E297584E700234174 /* metaflac */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = metaflac;
+			remoteRef = BD228C2D297584E700234174 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BD228C30297584E700234174 /* flacdiff */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = flacdiff;
+			remoteRef = BD228C2F297584E700234174 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BD228C3E297584E700234174 /* libout123.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libout123.a;
+			remoteRef = BD228C3D297584E700234174 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BD228C40297584E700234174 /* out123.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = out123.framework;
+			remoteRef = BD228C3F297584E700234174 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BD228C42297584E700234174 /* libsyn123.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libsyn123.a;
+			remoteRef = BD228C41297584E700234174 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BD228C44297584E700234174 /* syn123.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = syn123.framework;
+			remoteRef = BD228C43297584E700234174 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BD228C46297584E700234174 /* output_coreaudio.so */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = output_coreaudio.so;
+			remoteRef = BD228C45297584E700234174 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BD228C48297584E700234174 /* output_openal.so */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = output_openal.so;
+			remoteRef = BD228C47297584E700234174 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BD228C4A297584E700234174 /* output_dummy.so */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = output_dummy.so;
+			remoteRef = BD228C49297584E700234174 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BD228C4C297584E700234174 /* out123 */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = out123;
+			remoteRef = BD228C4B297584E700234174 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BD228C4E297584E700234174 /* mpg123 */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = mpg123;
+			remoteRef = BD228C4D297584E700234174 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		BD553A182747FE0500E7897F /* libmpg123.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -698,7 +953,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -756,7 +1011,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
