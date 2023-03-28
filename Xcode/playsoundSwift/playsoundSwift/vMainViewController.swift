@@ -99,22 +99,17 @@ class vMainViewController: NSViewController {
         var array = [String]();
         var decoders = Sound_AvailableDecoders();
         var info = decoders?.pointee?.pointee;
-        if info == nil {
-            return array;
-        }
-        repeat {
+        while info != nil {
             var extensions = info?.extensions;
             var string = extensions?.pointee;
-            if string != nil{
-                repeat {
-                    array.append(String(cString: string!));
-                    extensions = extensions?.advanced(by: 1);
-                    string = extensions?.pointee;
-                } while string != nil;
+            while string != nil {
+                array.append(String(cString: string!));
+                extensions = extensions?.advanced(by: 1);
+                string = extensions?.pointee;
             }
             decoders = decoders?.advanced(by: 1);
             info = decoders?.pointee?.pointee;
-        } while info != nil;
+        }
         return array;
     }
 
@@ -216,33 +211,31 @@ class vMainViewController: NSViewController {
         var array = [String]();
         var decoders = Sound_AvailableDecoders();
         var info = decoders?.pointee?.pointee;
-        if info != nil {
-            repeat {
-                var array_info = [String]();
-                var extensions = info?.extensions;
-                var string = extensions?.pointee;
-                if string != nil{
-                    var extensions_array = [String]();
-                    repeat{
-                        extensions_array.append(String(cString: string!));
-                        extensions = extensions?.advanced(by: 1);
-                        string = extensions?.pointee;
-                    } while string != nil;
-                    array_info.append(extensions_array.joined(separator: ", "));
-                }
-                if let string = info!.description {
-                    array_info.append(String(cString: string));
-                }
-                if let string = info!.author {
-                    array_info.append(String(cString: string));
-                }
-                if let string = info!.url {
-                    array_info.append(String(cString: string));
-                }
-                array.append(array_info.joined(separator: "\n"));
-                decoders = decoders?.advanced(by: 1);
-                info = decoders?.pointee?.pointee;
-            } while info != nil;
+        while info != nil {
+            var array_info = [String]();
+            var extensions = info?.extensions;
+            var string = extensions?.pointee;
+            if string != nil {
+                var extensions_array = [String]();
+                repeat {
+                    extensions_array.append(String(cString: string!));
+                    extensions = extensions?.advanced(by: 1);
+                    string = extensions?.pointee;
+                } while string != nil;
+                array_info.append(extensions_array.joined(separator: ", "));
+            }
+            if let string = info!.description {
+                array_info.append(String(cString: string));
+            }
+            if let string = info!.author {
+                array_info.append(String(cString: string));
+            }
+            if let string = info!.url {
+                array_info.append(String(cString: string));
+            }
+            array.append(array_info.joined(separator: "\n"));
+            decoders = decoders?.advanced(by: 1);
+            info = decoders?.pointee?.pointee;
         }
         var version = Sound_Version();
         Sound_GetLinkedVersion(&version);
