@@ -12,13 +12,21 @@ import SDL_Sound;
 
 
 /* global decoding state. */
-struct PlaysoundAudioCallbackData {
+class PlaysoundAudioCallbackData {
     var sample: UnsafeMutablePointer<Sound_Sample>?;
     var devformat: SDL_AudioSpec?;
     var decoded_ptr: UnsafeMutablePointer<Uint8>?;
     var decoded_bytes: Uint32;
     ///This variable is flipped to non-zero when the audio callback has finished playing the whole file.
     var complited: Bool;
+    
+    init(sample: UnsafeMutablePointer<Sound_Sample>? = nil, devformat: SDL_AudioSpec? = nil, decoded_ptr: UnsafeMutablePointer<Uint8>? = nil, decoded_bytes: Uint32 = 0, complited: Bool = false) {
+        self.sample = sample
+        self.devformat = devformat
+        self.decoded_ptr = decoded_ptr
+        self.decoded_bytes = decoded_bytes
+        self.complited = complited
+    }
 };
 
 
@@ -156,7 +164,7 @@ class vMainViewController: NSViewController {
             print("Couldn't load '\(url.path)': \(string).");
             return;
         }
-        var data = PlaysoundAudioCallbackData(sample: sample, devformat: nil, decoded_ptr: nil, decoded_bytes: 0, complited: false);
+        var data = PlaysoundAudioCallbackData(sample: sample);
         let audio_spec = withUnsafeMutablePointer(to: &data) { ptr in
             SDL_AudioSpec(freq: .init(sample.pointee.actual.rate), format: sample.pointee.actual.format, channels: sample.pointee.actual.channels, silence: 0, samples: 4096, padding: 0, size: 0, callback: audio_callback, userdata: ptr);
         }
