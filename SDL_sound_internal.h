@@ -33,7 +33,11 @@
 #error Do not include this header from your applications.
 #endif
 
+#ifndef USE_FRAMEWORK
 #include "SDL.h"
+#else
+#include <SDL/SDL.h>
+#endif
 
 #if !(SDL_VERSION_ATLEAST(1,2,10))
 #define RW_SEEK_SET 0

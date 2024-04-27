@@ -42,7 +42,11 @@
 #include <stdlib.h>
 #include <string.h>
 
+#ifndef USE_FRAMEWORK
 #include <mpg123.h>
+#else
+#include <mpg123/mpg123.h>
+#endif
 
 #include "SDL_sound.h"
 

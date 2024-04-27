@@ -37,8 +37,13 @@
 #include <string.h>
 #include <ctype.h>
 
+#ifndef USE_FRAMEWORK
 #include "SDL.h"
 #include "SDL_thread.h"
+#else
+#include <SDL/SDL.h>
+#include <SDL/SDL_thread.h>
+#endif
 #include "SDL_sound.h"
 
 #define __SDL_SOUND_INTERNAL__

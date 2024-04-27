@@ -33,7 +33,11 @@
 
 #if !SOUND_USE_ALTCVT
 
+#ifndef USE_FRAMEWORK
 #include "SDL.h"
+#else
+#include <SDL/SDL.h>
+#endif
 #include "SDL_sound.h"
 
 #define __SDL_SOUND_INTERNAL__

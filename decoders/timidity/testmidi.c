@@ -24,7 +24,11 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#ifndef USE_FRAMEWORK
 #include "SDL.h"
+#else
+#include <SDL/SDL.h>
+#endif
 #include "timidity.h"
 
 int done_flag = 0;
