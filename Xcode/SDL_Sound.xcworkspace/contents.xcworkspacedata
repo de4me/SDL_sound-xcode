@@ -2,21 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:../submodules/SDL/Xcode/SDL/SDL.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:SDL_Sound/SDL_Sound.xcodeproj">
+      location = "group:SDL_Sound/SDL_Sound-packages.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:SDL_Sound/../playsoundSwift/playsoundSwift.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:playsoundObjectiveC/playsoundObjectiveC.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:playsound/playsound.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:playsound_simple/playsound_simple.xcodeproj">
    </FileRef>
 </Workspace>

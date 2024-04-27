@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 53;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,21 +12,23 @@
 		BD2C1E64273CFF290011B11A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD2C1E63273CFF290011B11A /* Assets.xcassets */; };
 		BD2C1E67273CFF290011B11A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD2C1E65273CFF290011B11A /* Main.storyboard */; };
 		BD2C1E69273CFF290011B11A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2C1E68273CFF290011B11A /* main.m */; };
-		BD7E7360273E3060008C2F65 /* SDL_Sound.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD7E735F273E3060008C2F65 /* SDL_Sound.framework */; };
-		BD7E7361273E3060008C2F65 /* SDL_Sound.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BD7E735F273E3060008C2F65 /* SDL_Sound.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		BDB38A04273DB51A005834A5 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDB38A03273DB51A005834A5 /* SDL.framework */; };
-		BDB38A05273DB51A005834A5 /* SDL.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BDB38A03273DB51A005834A5 /* SDL.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BD79759E2B6568E400F39081 /* SDL_sound.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD79759D2B6568E400F39081 /* SDL_sound.framework */; };
+		BD79759F2B6568E400F39081 /* SDL_sound.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BD79759D2B6568E400F39081 /* SDL_sound.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BD9EF1E02B65474F0075270F /* SDL in Frameworks */ = {isa = PBXBuildFile; productRef = BD9EF1DF2B65474F0075270F /* SDL */; };
+		BD9EF1E32B65475D0075270F /* ogg in Frameworks */ = {isa = PBXBuildFile; productRef = BD9EF1E22B65475D0075270F /* ogg */; };
+		BD9EF1E62B6547690075270F /* vorbis in Frameworks */ = {isa = PBXBuildFile; productRef = BD9EF1E52B6547690075270F /* vorbis */; };
+		BD9EF1E92B6547780075270F /* mpg123 in Frameworks */ = {isa = PBXBuildFile; productRef = BD9EF1E82B6547780075270F /* mpg123 */; };
+		BD9EF1EC2B6547850075270F /* FLAC in Frameworks */ = {isa = PBXBuildFile; productRef = BD9EF1EB2B6547850075270F /* FLAC */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		BDB38A06273DB51A005834A5 /* Embed Frameworks */ = {
+		BD7975A02B6568E400F39081 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				BD7E7361273E3060008C2F65 /* SDL_Sound.framework in Embed Frameworks */,
-				BDB38A05273DB51A005834A5 /* SDL.framework in Embed Frameworks */,
+				BD79759F2B6568E400F39081 /* SDL_sound.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -43,6 +45,7 @@
 		BD2C1E66273CFF290011B11A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD2C1E68273CFF290011B11A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BD2C1E6A273CFF290011B11A /* playsoundObjectiveC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = playsoundObjectiveC.entitlements; sourceTree = "<group>"; };
+		BD79759D2B6568E400F39081 /* SDL_sound.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDL_sound.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD7E735F273E3060008C2F65 /* SDL_Sound.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDL_Sound.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDB38A03273DB51A005834A5 /* SDL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -52,8 +55,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD7E7360273E3060008C2F65 /* SDL_Sound.framework in Frameworks */,
-				BDB38A04273DB51A005834A5 /* SDL.framework in Frameworks */,
+				BD9EF1E92B6547780075270F /* mpg123 in Frameworks */,
+				BD9EF1E32B65475D0075270F /* ogg in Frameworks */,
+				BD79759E2B6568E400F39081 /* SDL_sound.framework in Frameworks */,
+				BD9EF1E02B65474F0075270F /* SDL in Frameworks */,
+				BD9EF1EC2B6547850075270F /* FLAC in Frameworks */,
+				BD9EF1E62B6547690075270F /* vorbis in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +102,7 @@
 		BD2C1E70273CFF6F0011B11A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BD79759D2B6568E400F39081 /* SDL_sound.framework */,
 				BD7E735F273E3060008C2F65 /* SDL_Sound.framework */,
 				BDB38A03273DB51A005834A5 /* SDL.framework */,
 			);
@@ -111,13 +119,20 @@
 				BD2C1E56273CFF280011B11A /* Sources */,
 				BD2C1E57273CFF280011B11A /* Frameworks */,
 				BD2C1E58273CFF280011B11A /* Resources */,
-				BDB38A06273DB51A005834A5 /* Embed Frameworks */,
+				BD7975A02B6568E400F39081 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = playsoundObjectiveC;
+			packageProductDependencies = (
+				BD9EF1DF2B65474F0075270F /* SDL */,
+				BD9EF1E22B65475D0075270F /* ogg */,
+				BD9EF1E52B6547690075270F /* vorbis */,
+				BD9EF1E82B6547780075270F /* mpg123 */,
+				BD9EF1EB2B6547850075270F /* FLAC */,
+			);
 			productName = playsoundObjectiveC;
 			productReference = BD2C1E5A273CFF280011B11A /* playsoundObjectiveC.app */;
 			productType = "com.apple.product-type.application";
@@ -145,6 +160,13 @@
 				Base,
 			);
 			mainGroup = BD2C1E51273CFF280011B11A;
+			packageReferences = (
+				BD9EF1DE2B65474F0075270F /* XCRemoteSwiftPackageReference "SDL-package" */,
+				BD9EF1E12B65475D0075270F /* XCRemoteSwiftPackageReference "ogg-package" */,
+				BD9EF1E42B6547690075270F /* XCRemoteSwiftPackageReference "vorbis-package" */,
+				BD9EF1E72B6547780075270F /* XCRemoteSwiftPackageReference "mpg123-package" */,
+				BD9EF1EA2B6547850075270F /* XCRemoteSwiftPackageReference "FLAC-package" */,
+			);
 			productRefGroup = BD2C1E5B273CFF280011B11A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -384,6 +406,77 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BD9EF1DE2B65474F0075270F /* XCRemoteSwiftPackageReference "SDL-package" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/de4me/SDL-package";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.15;
+			};
+		};
+		BD9EF1E12B65475D0075270F /* XCRemoteSwiftPackageReference "ogg-package" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/de4me/ogg-package";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.5;
+			};
+		};
+		BD9EF1E42B6547690075270F /* XCRemoteSwiftPackageReference "vorbis-package" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/de4me/vorbis-package";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.7;
+			};
+		};
+		BD9EF1E72B6547780075270F /* XCRemoteSwiftPackageReference "mpg123-package" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/de4me/mpg123-package";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.32.4;
+			};
+		};
+		BD9EF1EA2B6547850075270F /* XCRemoteSwiftPackageReference "FLAC-package" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/de4me/FLAC-package";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BD9EF1DF2B65474F0075270F /* SDL */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD9EF1DE2B65474F0075270F /* XCRemoteSwiftPackageReference "SDL-package" */;
+			productName = SDL;
+		};
+		BD9EF1E22B65475D0075270F /* ogg */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD9EF1E12B65475D0075270F /* XCRemoteSwiftPackageReference "ogg-package" */;
+			productName = ogg;
+		};
+		BD9EF1E52B6547690075270F /* vorbis */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD9EF1E42B6547690075270F /* XCRemoteSwiftPackageReference "vorbis-package" */;
+			productName = vorbis;
+		};
+		BD9EF1E82B6547780075270F /* mpg123 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD9EF1E72B6547780075270F /* XCRemoteSwiftPackageReference "mpg123-package" */;
+			productName = mpg123;
+		};
+		BD9EF1EB2B6547850075270F /* FLAC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD9EF1EA2B6547850075270F /* XCRemoteSwiftPackageReference "FLAC-package" */;
+			productName = FLAC;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BD2C1E52273CFF280011B11A /* Project object */;
 }
