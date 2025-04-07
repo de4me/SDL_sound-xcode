@@ -42,6 +42,7 @@
 #include <stdlib.h>
 #include <string.h>
 
+#define MPG123_NO_LARGENAME /* disable the _FILE_OFFSET_BITS suffixes. */
 #ifndef USE_FRAMEWORK
 #include <mpg123.h>
 #else
